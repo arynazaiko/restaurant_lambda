@@ -35,6 +35,10 @@ body {
   font-size: 20px;
 }
 
+.free-table-controlls {
+  position: absolute;
+}
+
 .menu {
   position: absolute;
   z-index: 2;
