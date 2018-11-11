@@ -4,42 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Restaurant Lambda</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div class="menu">
-    <div class="container clearfix">
-      <a href='#' class="logo">LAMBDA</a>
-      <div class='free-table-controlls'>
-        <div class="free-tables">Free tables: <span id="number"></span></div>
-        <button class="get-free-table">Get a free table</button>
+  <div class="first-section">
+    <div class="menu">
+      <div class="container">
+        <a href='#' class="logo">LAMBDA</a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Ingredients</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Reviews</a></li>
+          <li><a href="#">Reservation</a></li>
+          <li><i class="fab fa-twitter"></i></li>
+          <li><i class="fab fa-youtube"></i></li>
+          <li><i class="fab fa-facebook-f"></i></li>
+        </ul>
       </div>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Ingredients</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Reviews</a></li>
-        <li><a href="#">Reservation</a></li>
-      </ul>
+    </div>
+    <div class="main">
+      <div class="container">
+        <div class='free-table-controlls'>
+          <div class="free-tables">Free tables: <span id="number"></span></div>
+          <button class="get-free-table">GET A FREE TABLE</button>
+        </div>
+        <div class="main-text">
+          <p>the right ingredients for the right food</p>
+          <div class="decoration">
+            <img src="images/decoration.png" alt="">
+          </div>
+          <div class="main-buttons">
+            <button class="book-a-table">BOOK A TABLE</button>
+            <a href="#menu">
+              <button class="see-the-menu">SEE THE MENU</button>
+            </a>
+          </div>
+        </div>
+      </div>  
     </div>
   </div>
-  <div class="first-section">
-    <div class="container">
-      <div class="main-text">
-        <p>the right ingredients</p>
-        <p>for the right food</p>
-        <div class="decoration">
-          <img src="images/decoration.png" alt="" class="decoration">
-        </div>
-        <div class="main-buttons">
-          <button class="book-a-table">BOOK A TABLE</button>
-          <button class="see-the-menu">SEE THE MENU</button>
-          </div>
-      </div>
-    </div>  
-  </div>
+<!-- 2 -->
   <div class="second-section">
     <div class="container clearfix">
       <div class="left-section half-section">
@@ -65,11 +74,11 @@
       </div>
     </div>
   </div>
-
+<!-- 3 -->
   <div class="third-section">
     <div class="container">
-      <div class="half-section">&nbsp;</div>
-      <div class="half-section">
+      <div class="half-section left-section">&nbsp;</div>
+      <div class="half-section right-section">
         <div class="black-bg">
           <div class="text-area">
             <div class="upper-text">
@@ -88,7 +97,7 @@
                 Stop in today and check us out!
               </p>
             </div>
-            <div class="food-pics clearfix">
+            <div class="food-pics">
               <div class="wheat">
                 <img src="images/wheat.png" alt="">
               </div>
@@ -104,8 +113,8 @@
       </div>
     </div>
   </div>
-  
-  <div class="fourth-section">
+<!-- 4 -->
+  <div class="fourth-section" id="menu">
     <div class="container clearfix">
       <div class="half-section">
         <div class="menu-section">
@@ -117,19 +126,19 @@
             <div class="meal">Tzatsiki</div>
             <div class="price">$3.99</div>
             <hr>
-            <div class="descriptiom">
+            <div class="description">
               Refreshing traditional cucumber and garlic yoghurt dip.
             </div>
             <div class="meal">Aubergine Salad</div>
             <div class="price">$5.50</div>
             <hr>
-            <div class="descriptiom">
+            <div class="description">
               Pureed eggplant, garlic, green pepper and tomato dip.
             </div>
             <div class="meal">Aubergine Salad</div>
             <div class="price">$5.25</div>
             <hr>
-            <div class="descriptiom">
+            <div class="description">
               Pureed eggplant, garlic, green pepper and tomato dip.
             </div>
           </div>
@@ -143,19 +152,19 @@
             <div class="meal">Tzatsiki</div>
             <div class="price">$3.99</div>
             <hr>
-            <div class="descriptiom">
+            <div class="description">
               Refreshing traditional cucumber and garlic yoghurt dip.
             </div>
             <div class="meal">Aubergine Salad</div>
             <div class="price">$5.50</div>
             <hr>
-            <div class="descriptiom">
+            <div class="description">
               Pureed eggplant, garlic, green pepper and tomato dip.
             </div>
             <div class="meal">Aubergine Salad</div>
             <div class="price">$5.25</div>
             <hr>
-            <div class="descriptiom">
+            <div class="description">
               Pureed eggplant, garlic, green pepper and tomato dip.
             </div>
           </div>
@@ -171,18 +180,17 @@
             <div class="meal">Haloumi</div>
             <div class="price">$3.99</div>
             <hr>
-            <div class="descriptiom">
+            <div class="description">
               Refreshing traditional cucumber and garlic yoghurt dip.
             </div>
             <div class="meal">Spinach Pie</div>
             <div class="price">$5.50</div>
             <hr>
-            <div class="descriptiom">
+            <div class="description">
               Pureed eggplant, garlic, green pepper and tomato dip.
             </div>
           </div>
         </div>
-        <!-- 4 -->
         <div class="menu-section">
           <p class="main-title">Main Dishes</p>
           <div class="divider">
@@ -192,25 +200,25 @@
             <div class="meal">Tzatsiki</div>
             <div class="price">$3.99</div>
             <hr>
-            <div class="descriptiom">
+            <div class="description">
               Refreshing traditional cucumber and garlic yoghurt dip.
             </div>
             <div class="meal">Aubergine Salad</div>
             <div class="price">$5.50</div>
             <hr>
-            <div class="descriptiom">
+            <div class="description">
               Pureed eggplant, garlic, green pepper and tomato dip.
             </div>
             <div class="meal">Aubergine Salad</div>
             <div class="price">$5.25</div>
             <hr>
-            <div class="descriptiom">
+            <div class="description">
               Pureed eggplant, garlic, green pepper and tomato dip.
             </div>
             <div class="meal">Aubergine Salad</div>
             <div class="price">$5.25</div>
             <hr>
-            <div class="descriptiom">
+            <div class="description">
               Pureed eggplant, garlic, green pepper and tomato dip.
             </div>
           </div>
@@ -218,6 +226,7 @@
       </div>
     </div>
   </div>
+  <!-- 5 -->
   <div class="fifth-section">
     <div class="container">
       <div class="black-square">
@@ -241,6 +250,7 @@
       </div>
     </div>
   </div>
+  <!-- 6 -->
   <div class="sixth-section">
     <div class="container">
       <div class="left-section half-section clearfix">
@@ -260,45 +270,44 @@
             <img src="images/divider.png" alt="">
           </div>
           <div class="lower-text">
-            <p>
+            <p class="first-paragraph">
                If you’ve been to one of our restaurants, 
                you’ve seen – and tasted – what keeps 
                our customers coming back for more. 
                Perfect materials and freshly baked food.
             </p>
-            <br>
-            <p>
+            <p class="second-paragraph">
                 Delicious Lambda cakes,  muffins, and 
                 gourmet coffees make us hard to resist! 
                 Stop in today and check us out! 
                 Perfect materials and freshly baked food.
             </p>
           </div>
-        </div>
-        <div class="input-area clearfix">
-          <div class="input-name">
+          <div class="input-area clearfix">
+            <div class="input-name">
               <label for="name">Name</label>
               <br>
               <input type="text" id="name" placeholder="your name*">
-          </div>
-          <div class="input-email">
+            </div>
+            <div class="input-email">
               <label for="email">Email</label>
               <br>
               <input type="text" id="email" placeholder="your email*">
-          </div>
-          <div class="input-date">
+            </div>
+            <div class="input-date">
               <label for="date">Date</label>
               <br>
               <input type="text" id="date" placeholder="date*">
-          </div>
-          <div class="input-number">
+            </div>
+            <div class="input-number">
               <label for="party-number">Party number</label>
               <br>
               <input type="text" id="party-number" placeholder="party number*">
+            </div>
           </div>
-        </div>
-        <div class="submit-button">
-          <button type="submit" id='book-now'>Book now!</button>
+          <div class="submit-button">
+            <button type="submit" id='book-now'>Book now!</button>
+          </div>
         </div>
       </div>
     </div>
@@ -310,19 +319,19 @@
         <img src="images/divider_white.png" alt="">
         <p class="info">
           Lambda's new and expanded Chelsea location represents 
-          a truly authentic Greek patisserie, featuring breakfasts 
+          a truly authentic <b>Greek</b> patisserie, featuring breakfasts 
           of fresh croissants and steaming bowls of café.
-          Lamda the best restaurant in town
         </p>
+        <p class="info">Lamda the best restaurant in town</p>
       </div>
       <div class="pull-left one-third">
         <div class="footer-logo">Opening Hours</div>
         <img src="images/divider_white.png" alt="">
         <p class="info">
-          Mon-Thu: 7:00am-8:00pm
+          <b>Mon-Thu:</b> 7:00am-8:00pm
         </p>
         <p class="info"> 
-          Fri-Sun: 7:00am-10:00pm
+          <b>Fri-Sun:</b> 7:00am-10:00pm
         </p>
         <div class="icons">
           <img src="images/cards.png" alt="">
@@ -332,10 +341,10 @@
         <div class="footer-logo">Our Location</div>
         <img src="images/divider_white.png" alt="">
         <p class="info">
-          19th Paradise Street Sitia
+          <b>19th Paradise Street Sitia</b>
         </p>
         <p class="info">
-          128 Meserole Avenue
+          <b>128 Meserole Avenue</b>
         </p>
         <div class="icons">
           <img src="images/icons.png" alt="">
